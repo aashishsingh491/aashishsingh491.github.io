@@ -55,12 +55,12 @@ ul li.active a{
 	color: white;
 	font-size: 70px;
 }
-.title h2{
-	color: white;
+.title h6{
+	color: red;
 	font-size: 70px;
 }
-.title h3{
-	color: white;
+.title h8{
+	color: black;
 	font-size: 70px;
 }
 .button{

@@ -55,11 +55,17 @@ ul li.active a{
 	color: white;
 	font-size: 70px;
 }
-.title h6{
+.title1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title1 h6{
 	color: red;
 	font-size: 70px;
 }
-.title h8{
+.title1 h8{
 	color: black;
 	font-size: 70px;
 }

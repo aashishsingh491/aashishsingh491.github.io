@@ -1,0 +1,66 @@
+<html>
+    <head>
+    <title>
+    IndianTourism/LogIn
+    </title>
+        
+<link rel="stylesheet" type="text/css" href="style.css">
+        <script src="loginvalidation.js"></script>
+    </head>
+    <body>
+    <header id="header">
+        <center>
+    <h1>
+        INDIAN TOURISM
+        </h1>
+            </center>
+        </header>
+    <hr>
+        
+    <h2 class="h2">
+    ENTER LOGIN CREDENTIALS
+    </h2>
+    <center>
+        <form class="form1" name="login" onsubmit="return validateform()" action="session.php" method="post">
+            <table>
+                <tr>
+                    <td>
+        USER NAME:
+                    </td>
+                    <td>
+                        <input class="i1" type="text" name="name" placeholder=" User name" required></td></tr>
+                    <tr>
+                        <td>
+                            EMAIL:</td>
+                        <td>
+                            <input class="i1" type="email" name="email" placeholder="email" required></td></tr>
+                        <tr>
+                            <td>
+                                PASSWORD:</td>
+                            <td>
+                                <input class ="i1" type="password" name="password" placeholder="password" required></td></tr>
+                <tr>
+                    <td></td>
+        <td>
+                        <input type="checkbox" name="remember">Remember username and password<br>
+                        <button class="b1" type="submit" name="submit">LOGIN</a></button>
+                        <a href="#">Forgot password?</a>
+                        <button class="b1" type="submit"><a href="#">CANCEL</a></button>
+                        <br>
+                        <button class="b1" type="button"><a href="signup.html">New User?</a></button></td></tr></table>
+        
+        </form>
+        </center>
+   <footer id="footer">
+    
+        &copy;2019 All rights reserved (Indian Tourism)<br>
+    <center>
+    Connect: <span style="background-color: mediumslateblue;font-weight: bolder"><a href="https://www.facebook.com/incredibleindia/">Facebook</a> </span>
+    <span style="background-color: skyblue;font-weight: bolder"><a href="https://twitter.com/incredibleindia?lang=en">Twitter</a> </span>
+    </center>
+
+    Contact:9430515021, 8005965459
+        
+        </footer>                                                                                                                              
+    </body>
+</html>

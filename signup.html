@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>
+        signup page
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="signupvalidation.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <center>
+            <h1>
+                INDIAN TOURISM
+            </h1>
+        </center>
+    </header>
+    <hr>
+
+
+    <h2 class="h2">
+        REGISTER YOURSELF
+    </h2>
+    <center>
+        <form class="form1" name="signup" onsubmit="return validateform()" action="signup.php" method="post">
+            <table>
+                <tr>
+                    <td> FIRST NAME:</td>
+                    <td>
+                        <input class="i1" type="text" name="fname" placeholder=" first name"></td>
+                </tr><br>
+                <tr>
+                    <td>
+                        LAST NAME:</td>
+                    <td>
+                        <input class="i1" type="text" name="lname" placeholder=" last name"></td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER:</td>
+                    <td>
+                        <input class="i1" type="radio" name="gender" value="MALE">Male
+
+                        <input class="i1" type="radio" name="gender" value="FEMALE">Female
+
+                        <input type="radio" name="gender" value="OTHERS">Others</td>
+                </tr>
+                <tr>
+                    <td>
+                        EMAIL:</td>
+                    <td>
+                        <input class="i1" type="email" name="email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td>
+                        PASSWORD:</td>
+                    <td>
+                        <input class="i1" type="password" name="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        CONFIRM PASSWORD:</td>
+                    <td>
+                        <input class="i1" type="password" name="password" placeholder="retype-password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        DATE-OF-BIRTH:</td>
+                    <td>
+                        <input class="i1" type="date" name="dob" placeholder="dob"><br><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        CONTACT NUMBER:</td>
+                    <td>
+                        <input class="i1" type="number" name="num" placeholder="contact number"></td>
+                </tr>
+                <tr>
+                    <td>
+                        ADDRESS:</td>
+                    <td>
+                        <input class="i1" type="text" name="address" placeholder="address"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                        <button class="b1" type="submit">SIGNUP</button>
+
+                        <button class="b1" type="reset">RESET</button>
+                        <br>
+                        <button class="b1" type="button"><a href="login.html">Back</a></button></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+
+    <footer id="footer">
+
+        &copy;2019 All rights reserved (Indian Tourism)<br>
+        <center>
+    Connect: <span style="background-color: mediumslateblue;font-weight: bolder"><a href="https://www.facebook.com/incredibleindia/">Facebook</a> </span>
+    <span style="background-color: skyblue;font-weight: bolder"><a href="https://twitter.com/incredibleindia?lang=en">Twitter</a> </span>
+    </center>
+
+        Contact:9430515021, 8005965459
+
+    </footer>
+     <script src="signupvalidation.js"></script>
+</body>
+
+</html>

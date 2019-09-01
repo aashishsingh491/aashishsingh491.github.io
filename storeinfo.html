@@ -1,0 +1,175 @@
+<html>
+<head>
+    <title>
+       INDIAN TOURISM   
+    </title>
+    
+ <script>
+    function register()
+        {
+            var x=document.getElementsByTagName("input");
+            if(x[0].value==null || x[0].value=="")
+                {
+                    alert("Please fill the User name.");
+                    return false;
+                }
+            if(!isNaN(x[0].value))
+                {
+                    alert("User name can't be numeric.");
+                    return false;
+                }
+            if(x[1].value==null || x[1].value=="")
+                {
+                    alert("Please fill Destination name.");
+                    return false;
+                }
+            if(!isNaN(x[1].value))
+                {
+                    alert("Destination name can't be numeric.");
+                    return false;
+                }
+            if(x[2].value==null || x[2].value=="")
+                {
+                    alert("Please fill State name.");
+                    return false;
+                }
+            if(!isNaN(x[2].value))
+                {
+                    alert("State name can't be numeric.");
+                    return false;
+                }
+            if(x[3].value==null || x[3].value=="")
+                {
+                    alert("Please fill Journey start date.");
+                    return false;
+                }
+            if(x[4].value==null || x[4].value=="")
+                {
+                    alert("Please fill Journey end date.");
+                    return false;
+                }
+             if(x[5].value==null || x[5].value=="")
+                {
+                    alert("Please fill no. of travellers");
+                    return false;
+                }
+         else 
+                {
+                    alert("Journey Details submitted successfully.")
+                    return true;
+                }
+        }
+    </script>
+
+    <style>
+    body
+        {
+            background-color: dimgray;
+           background-image: url(image123.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: opx;
+    background-size: cover; 
+
+        }
+        #p
+        {
+            font-size: 35px;
+            font-weight: bolder;
+            text-decoration-color: bisque;
+            color: aqua;
+        }
+         #table
+        {
+            border: 20px solid teal;
+            font-size: 50;
+            background-color:palegoldenrod;
+        }
+
+        #h
+        {
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            font-family: monospace;
+            font-size: 30;
+            font-weight: bolder;
+            color:red;
+        }
+        h2:hover
+        {
+            background-color: brown;
+        }
+        #h1
+        {
+            background-color: coral;
+        }
+        #header
+{
+  background-color: coral;
+    width: 100%;
+    align-content: center;
+    height: 50px;
+}
+        #footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:55px;
+   width:100%;
+   background-color: lightseagreen;
+}
+    
+    </style>
+    </head>
+    <body>
+        <header id="header">
+        
+    <h1 align="center">
+        INDIAN TOURISM
+        </h1 >
+        </header>
+        <br>
+        <h1 align="center">
+        Enter Journey Details
+        </h1 >
+        <form name="form" onsubmit="return register()" action="storeinfo.php" method="post">
+        <center>
+        <table id="table">
+         <tr><td id="td">User Name:</td>
+               <td><input type="text" name="username" placeholder="username"></td>
+               </tr>
+           <tr><td id="td">Destination Name:</td>
+               <td><input type="text" name="destinationname" placeholder="Enter destination's name"></td>
+               </tr>
+            <tr><td id="td">State Name:</td>
+               <td><input type="text" name="statename" placeholder="Enter state's name"></td>
+               </tr>
+            <tr><td id="td">Journey start date:</td>
+               <td><input type="date" name="jsdate" </td>
+               </tr>
+            <tr><td id="td">Journey end date:</td>
+               <td><input type="date" name="jedate" </td>
+               </tr>
+            <tr><td id="td">No of travellers:</td>
+               <td><input type="number" name="tno" placeholder="Enter no of travellers" ></td>
+               </tr>
+        
+            <tr><td></td><td> <button id="b1" type="submit" name="submit">Submit</button>
+                <button id="b1" type="reset" name="reset">Reset</button></td></tr>
+        </table>
+        </center>
+        </form>
+        <footer id="footer">
+    
+        &copy;2019 All rights reserved (Indian Tourism)<br>
+    <center>
+    Connect: <span style="background-color: mediumslateblue;font-weight: bolder"><a href="https://www.facebook.com/incredibleindia/">Facebook</a> </span>
+    <span style="background-color: skyblue;font-weight: bolder"><a href="https://twitter.com/incredibleindia?lang=en">Twitter</a> </span>
+    </center>
+
+    Contact:9430515021, 8005965459
+        
+        </footer>                                                                                                                              
+    </body>
+</html>
